@@ -12,5 +12,6 @@ if (!$koneksi) {
     die("Koneksi database gagal: " . mysqli_connect_error());
 }
 
+echo"well";
 mysqli_set_charset($koneksi, "utf8mb4");
 ?>
